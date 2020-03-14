@@ -1,0 +1,10 @@
+include ':login',
+        ':login_api',
+        'splash','sociallogin' ,
+        ':TuyaSmart_AppShell'
+include ':scene', ':scene-api', ':scene-ui-widget',
+        'TuyaSmart_AppShell', ':scene-ui'
+
+
+
+
