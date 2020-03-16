@@ -1,0 +1,1 @@
+copy upload.sh /usr/local/bin/upload-test.sh

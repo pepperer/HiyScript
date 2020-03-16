@@ -52,4 +52,5 @@ done
 read index 
 module=${targetModules[$index]}
 echo "执行的命令为 ===> ./gradlew ${module}:upload"
-./gradlew ${name}:upload
+cd ${module}
+../gradlew upload
