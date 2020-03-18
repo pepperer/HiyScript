@@ -52,12 +52,32 @@ upload() {
   echo "执行的命令为 ===> ./gradlew ${module}:upload"
   cd ${module}
   ../gradlew upload
+}
 
+android() {
+  # echo "输入的第1参数是: ${1}"
+  # adb devices
+  # devices=`adb devices | egrep -o '([A-a-ZZ0-9]+)'` 
+  # echo $devices
+  case $1 in
+  'activity') 
+    adb shell dumpsys window | grep mCurrentFocus
+   ;;
+   'layout-on') 
+    adb shell setprop debug.layout true
+    adb shell service call activity 1599295570 | echo
+   ;;
+   'layout-off')
+    adb shell setprop debug.layout false
+    adb shell service call activity 1599295570  | echo
+   ;;
+   *) echo "还不支持"
+   ;;
+   esac
 }
 
 # 代码开始的地方
-echo $1
-
+# echo $1 $2
 if [[ 'upload' = $1 ]]
 then
    upload
@@ -65,6 +85,9 @@ elif  [[ 'grep' = $1  ]]
 then
   echo "请选择当前有的功能: ${2}"
   grep -En ${2} ./tuyasmart_appshell/tuyaDependence.gradle
+elif [[ 'adb' = $1 ]]
+then
+  android "${2}"
 else
   echo "请选择当前有的功能: upload"
 fi
