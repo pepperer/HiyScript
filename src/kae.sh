@@ -49,7 +49,7 @@ upload() {
 
   echo "You have selected ${var} 模块"
   module=${targetModules[$index]}
-  echo "执行的命令为 ===> ./gradlew ${module}:upload"
+  echo "执行的命令为 ===> ./gradlew ${var}:upload"
   cd ${module}
   ../gradlew upload
 }
