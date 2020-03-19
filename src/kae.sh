@@ -78,9 +78,9 @@ android() {
 
 help() {
   echo "当前支持的工功能有:"
-  echo "kae upload  用户模块上传, 仅支持settings.gradle 带:的模块"
-  echo "kae grep [module] 查看appshell匹配module的内容"
-  echo "kae adb [fubc] func:[activity, layout-on, layout-off]"
+  echo "kae upload           用户模块上传, 仅支持settings.gradle 带:的模块"
+  echo "kae grep [module]    查看appshell匹配module的内容"
+  echo "kae adb  [fubc]      支持部分adb操作:activity, layout-on, layout-off"
 }
 
 # 代码开始的地方
