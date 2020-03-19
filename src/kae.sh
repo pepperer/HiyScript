@@ -76,6 +76,13 @@ android() {
    esac
 }
 
+help() {
+  echo "当前支持的工功能有:"
+  echo "kae upload  用户模块上传, 仅支持settings.gradle 带:的模块"
+  echo "kae grep [module] 查看appshell匹配module的内容"
+  echo "kae adb [fubc] func:[activity, layout-on, layout-off]"
+}
+
 # 代码开始的地方
 # echo $1 $2
 if [[ 'upload' = $1 ]]
@@ -88,6 +95,12 @@ then
 elif [[ 'adb' = $1 ]]
 then
   android "${2}"
+elif [[ 'version' = $1 ]]
+then
+  echo 当前版本为0.0.3
+  elif [[ 'help' = $1 ]]
+then
+ help
 else
-  echo "请选择当前有的功能: upload"
+  echo "不支持当前命令"
 fi
