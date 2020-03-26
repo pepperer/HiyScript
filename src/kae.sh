@@ -5,6 +5,7 @@
 
 # 定义常量
 # config的根目录
+echo "开始更新......1"
 ROOT_DIR_PATH="${HOME}/.kae"
 # config 文件路径
 CONFIG_FILE_PATH="${ROOT_DIR_PATH}/config"
