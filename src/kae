@@ -1,10 +1,14 @@
 #!/usr/bin/env bash
-### todo
-# 1. sha256 检验更新
-# 2. 创建.kae目录 以及config 目录和临时文件(用于和kae命令校验是否需要更新)
-
-
-
+#
+#function check(){
+#    local a="$1"
+#    printf "%d" "$a" &>/dev/null && echo "integer" && return
+#    printf "%d" "$(echo $a|sed 's/^[+-]\?0\+//')" &>/dev/null && echo "integer" && return
+#    printf "%f" "$a" &>/dev/null && echo "number" && return
+#    [ ${#a} -eq 1 ] && echo "char" && return
+#    echo "string"
+#}
+#
 upload() {
   # 获取当前地址
   path=`pwd`
@@ -69,7 +73,7 @@ android() {
    ;;
    *) echo "还不支持"
    ;;
-  esac
+   esac
 }
 
 help() {
@@ -79,66 +83,24 @@ help() {
   echo "kae adb  [fubc]      支持部分adb操作:activity, layout-on, layout-off"
 }
 
-update() {
-  echo "开始更新......"
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/pepperer/shelljs/master/src/install.sh)"
-  echo "更新结束"
-}
-
-
-
 # 代码开始的地方
-# echo ${*}
-# echo ${HOME}
-configPath="${HOME}/.kae"
-tempPath="${HOME}/.kaetemp"
-if [[ ! -f $configPath ]]
+# echo $1 $2
+if [[ 'upload' = $1 ]]
 then
-  touch configPath
-  echo "version:1.0.0" >> $configPath
-fi
-localVersion=$(grep -i version ${configPath} | cut -f 2 -d :)
-echo "当前版本为$localVersion"
-
-code=$(shasum -a 256 ${configPath} | cut -f 1 -d " " )
-echo "当前文件的abs256值为${code}"
-
-content=$(curl -fsSL https://raw.githubusercontent.com/pepperer/shelljs/master/dist/kae -o ${tempPath})
-
-tempCode=$(shasum -a 256 ${tempPath} | cut -f 1 -d " " )
-echo "临时文件的abs256值为${code}"
-
-
-remoteCode=$(echo ${content} | shasum -a 256 | cut -f 1 -d " " )
-echo  "远程文件的abs256值为${remoteCode}"
-
-if [[ $code != remoteCode ]]
+   upload
+elif  [[ 'grep' = $1  ]]
 then
-echo "当前版本非最新版本么, 将进行更新" 
-update
-echo "继续下一步"
-fi
-
-case $1 in
-  'upload') 
-  upload
-  ;;
-  'grep')
+  echo "请选择当前有的功能: ${2}"
   grep -En ${2} ./tuyasmart_appshell/tuyaDependence.gradle
-  ;;
-  'adb')
-   android "${2}"
-  ;;
-  'version')
+elif [[ 'adb' = $1 ]]
+then
+  android "${2}"
+elif [[ 'version' = $1 ]]
+then
   echo 当前版本为0.0.3
-  ;;
-  'help')
-  help
-  ;;
-  'update')
-#  update
-  ;;
-  *) 
-  echo 还不支持
-  ;;
-esac
+  elif [[ 'help' = $1 ]]
+then
+ help
+else
+  echo "不支持当前命令"
+fi
