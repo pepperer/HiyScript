@@ -91,7 +91,6 @@ help() {
 update() {
   echo "开始更新......"
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/pepperer/shelljs/master/src/install.sh)"
-  echo "更新结束"
 }
 
 init() {
@@ -115,7 +114,7 @@ init() {
   #echo  "远程文件的abs256值为${remoteCode}"
 
   if [[ $code != $tempCode ]];then
-  echo "当前版本一致, 将开始进行更新。。。" 
+  echo "当前版本不一致, 将开始进行更新。。。" 
     return 1
   fi
   echo "当前版本一致, 将不进行更新" 
@@ -123,8 +122,10 @@ init() {
 }
 
 init
-echo $?
-if [[ $? = 1 ]];then
+result=$?
+if [[ ${result} -eq 1 ]];
+then
+  echo "开始更新"
   update
 fi
 
