@@ -32,8 +32,13 @@ upload() {
   modules=`egrep -o '(:)([a-zA-Z_-]+)' ${settingPath}`
 
   # 测试答应结构
-  # echo "数组的元素为: ${modules[*]}"
+  echo "数组的元素为: ${modules[*]}"
+  moduleSize=${modules[*]}
 
+  if [[ moduleSize -eq 0 ]];then
+    echo "没有匹配到对应的模块, 请手动执行./gradlew 【需要上传的模块目录名】:upload"
+    exit 0
+  fi
 
   targetModules=()
   for loop in ${modules[*]}
