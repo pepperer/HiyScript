@@ -23,12 +23,12 @@ createRootDir() {
  fi
 }
 
-installKae() {
-  cd kae
-  sudo curl https://raw.githubusercontent.com/pepperer/shelljs/master/dist/kae -O --progress
-  sudo chmod 555 kae
-  ln -sf /usr/local/kae/kae /usr/local/bin/kae
-}
+#installKae() {
+#  cd kae
+#  sudo curl https://raw.githubusercontent.com/pepperer/shelljs/master/dist/kae -O --progress
+#  sudo chmod 555 kae
+#  ln -sf /usr/local/kae/kae /usr/local/bin/kae
+#}
 
 if have_sudo_access;
 then

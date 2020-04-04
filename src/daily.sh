@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+###  日常的提交 尽给lsd 自己用的
 
 git_serial() {
   echo  "当前操作的模块为$1"

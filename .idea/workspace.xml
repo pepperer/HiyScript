@@ -2,171 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a39e6190-d81e-44e8-aee4-3b032f2cdc75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/template/android.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/terminal.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/terminal.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/kae" beforeDir="false" afterPath="$PROJECT_DIR$/dist/kae" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dailyDo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/dailyDo.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/a.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/template/a.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/android.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/configPath" beforeDir="false" afterPath="$PROJECT_DIR$/src/upload.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/dailyDo.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/daily.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/install.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kae.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/kae.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/src/settings.gradle" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/android.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/dist/dailyDo">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/dailyDo.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/install-local.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/build.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/kae.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="337">
-                  <caret line="95" column="2" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="2" />
-                  <folding>
-                    <element signature="n#!!block;n#upload#0" />
-                    <element signature="n#!!block;n#android#0" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>command</find>
-      <find>verbose</find>
-      <find>service</find>
-      <find>grep</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/sdf/shell.sh" />
-        <option value="$PROJECT_DIR$/src/shell.sh" />
-        <option value="$PROJECT_DIR$/src/a.java" />
-        <option value="$PROJECT_DIR$/output/dir1/user.json" />
-        <option value="$PROJECT_DIR$/src/migrate.sh" />
-        <option value="$PROJECT_DIR$/src/deploy.sh" />
-        <option value="$PROJECT_DIR$/src/a.groovy" />
-        <option value="$PROJECT_DIR$/src/android.sh" />
-        <option value="$PROJECT_DIR$/src/comon.sh" />
-        <option value="$PROJECT_DIR$/src/common.sh" />
-        <option value="$PROJECT_DIR$/src/settings.gradle" />
-        <option value="$PROJECT_DIR$/src/upload.sh" />
-        <option value="$PROJECT_DIR$/src/kae" />
-        <option value="$PROJECT_DIR$/src/tuyasmart_appshell/tuyaDependence.gradle" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/install.sh" />
-        <option value="$PROJECT_DIR$/src/DoDaily.sh" />
-        <option value="$PROJECT_DIR$/src/build.sh" />
-        <option value="$PROJECT_DIR$/src/install-local.sh" />
-        <option value="$PROJECT_DIR$/src/kae.sh" />
-        <option value="$PROJECT_DIR$/src/dailyDo.sh" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="807" />
-  </component>
+  <component name="ProjectId" id="1ZwXjwLLxzXhp66UaKkceO78ZS8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="shell" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="shell" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-            </path>
-            <path>
-              <item name="shell" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="shell" type="2674bda8:ScopeViewTreeModel$GroupNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="shell" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shell" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shell" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shell" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="shell" type="b2602c69:ProjectViewProjectNode" />
-              <item name="shell" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -181,28 +43,17 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Shell Script" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/template" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="shell.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
@@ -221,11 +72,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Bash.shell.sh" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -268,154 +114,49 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="807" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15593705" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="UI Designer" order="6" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4118497" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32912844" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.433526" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.32912844" />
-      <window_info anchor="bottom" id="Flutter Performance" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Flutter Inspector" order="5" />
-      <window_info anchor="right" id="Word Book" order="6" side_tool="true" />
-      <window_info anchor="right" id="Flutter Outline" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Theme Preview" order="10" />
-      <window_info anchor="right" id="Capture Analysis" order="11" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/a.java" />
-    <entry file="file://$PROJECT_DIR$/src/shell.sh" />
-    <entry file="file://$PROJECT_DIR$/readme.md" />
-    <entry file="file://$PROJECT_DIR$/output/dir2/user.json" />
-    <entry file="file://$PROJECT_DIR$/output/dir2/aa.txt" />
-    <entry file="file://$PROJECT_DIR$/output/dir1/user.json" />
-    <entry file="file://$PROJECT_DIR$/src/dist/Itachi/res/下载.png" />
-    <entry file="file://$PROJECT_DIR$/src/dist/Itachi/res/bg@2x.png" />
-    <entry file="file://$PROJECT_DIR$/src/deploy.sh" />
-    <entry file="file://$PROJECT_DIR$/src/common.sh" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/Process.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2025">
-          <caret line="159" column="24" selection-start-line="159" selection-start-column="24" selection-end-line="159" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/upload.sh" />
-    <entry file="file://$PROJECT_DIR$/src/kae-upload.sh" />
-    <entry file="file://$PROJECT_DIR$/.git/info/exclude">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///usr/local/bin/kae">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-338">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/a.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="152" column="47" selection-start-line="152" selection-start-column="47" selection-end-line="152" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tuyasmart_appshell/tuyaDependence.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/kae">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/install.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="71" selection-start-line="4" selection-start-column="71" selection-end-line="4" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/android.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/dailyDo">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/install-local.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/build.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/kae.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="95" column="2" selection-start-line="95" selection-start-column="2" selection-end-line="95" selection-end-column="2" />
-          <folding>
-            <element signature="n#!!block;n#upload#0" />
-            <element signature="n#!!block;n#android#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dailyDo.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/src/dist/Itachi" />
+      <path value="$PROJECT_DIR$/src/dist/TuyaBssApp" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="94" key="#Notifications" timestamp="1585847453444">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="320" y="94" key="#Notifications/0.23.1440.811@0.23.1440.811" timestamp="1585841403003" />
+    <state x="320" y="94" key="#Notifications/0.23.1440.812@0.23.1440.812" timestamp="1585847453444" />
+    <state x="320" y="94" key="#Plugins" timestamp="1585841932898">
+      <screen x="0" y="23" width="1440" height="811" />
+    </state>
+    <state x="320" y="94" key="#Plugins/0.23.1440.811@0.23.1440.811" timestamp="1585841932898" />
+    <state x="-1890" y="247" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586012783169">
+      <screen x="-2560" y="-129" width="2560" height="1417" />
+    </state>
+    <state x="-1890" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.802/-2560.-129.2560.1417/1440.-16.1920.1057@-2560.-129.2560.1417" timestamp="1586012783169" />
+    <state x="377" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.811@0.23.1440.811" timestamp="1585841502483" />
+    <state x="-1635" y="182" key="CommitChangelistDialog2" timestamp="1586018984758">
+      <screen x="-2560" y="-129" width="2560" height="1417" />
+    </state>
+    <state x="-1635" y="182" key="CommitChangelistDialog2/0.23.1440.802/-2560.-129.2560.1417/1440.-16.1920.1057@-2560.-129.2560.1417" timestamp="1586018984758" />
+    <state x="-2293" y="25" key="SettingsEditor" timestamp="1586019027726">
+      <screen x="-2560" y="-129" width="2560" height="1417" />
+    </state>
+    <state x="-1771" y="207" key="SettingsEditor/0.0.1440.900/-2560.-152.2560.1440/1440.-39.1920.1080@-2560.-152.2560.1440" timestamp="1585752966871" />
+    <state x="-2293" y="25" key="SettingsEditor/0.23.1440.802/-2560.-129.2560.1417/1440.-16.1920.1057@-2560.-129.2560.1417" timestamp="1586019027726" />
+    <state x="150" y="111" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1585842662492" />
+    <state x="150" y="111" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1585847509028" />
+    <state x="378" y="64" width="683" height="729" key="find.popup" timestamp="1585846152303">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="378" y="64" width="683" height="729" key="find.popup/0.23.1440.812@0.23.1440.812" timestamp="1585846152303" />
+    <state x="-1615" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1586019505978">
+      <screen x="-2560" y="-129" width="2560" height="1417" />
+    </state>
+    <state x="-1615" y="196" width="670" height="676" key="search.everywhere.popup/0.23.1440.802/-2560.-129.2560.1417/1440.-16.1920.1057@-2560.-129.2560.1417" timestamp="1586019505978" />
   </component>
   <component name="masterDetails">
     <states>
