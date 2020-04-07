@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+
 # 获取当前地址
 ROOT_PATH=$(pwd)
 ##### 查看当前地址的setting 文件
