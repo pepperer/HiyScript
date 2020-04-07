@@ -1,5 +1,1 @@
-# shelljs
-
-
-##自动档：
-- /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/pepperer/shelljs/master/src/install.sh)"
+# 鲸落脚本(目前维护中，暂不可用)
