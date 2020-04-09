@@ -19,8 +19,14 @@ create_root_dir() {
   if [[ ! -d "/usr/local/kae" ]]; then
     echo "正在创建kae目录"
     sudo mkdir -v /usr/local/kae
-    install_script shell
   fi
+}
+
+install_shell() {
+  echo "开始更新壳"
+  sudo curl https://raw.githubusercontent.com/pepperer/shelljs/master/dist/kae -O --progress
+  sudo chmod 555 kae
+  ln -sf /usr/local/kae/kae /usr/local/bin/kae
 }
 
 install_script() {
@@ -28,10 +34,7 @@ install_script() {
   echo "准备开始安装脚本$1"
   case $1 in
   'shell')
-    echo "开始更新壳"
-    sudo curl https://raw.githubusercontent.com/pepperer/shelljs/master/dist/kae -O --progress
-    sudo chmod 555 kae
-    ln -sf /usr/local/kae/kae /usr/local/bin/kae
+    install_shell
     ;;
   'upload')
     echo "开始更新上传"
@@ -46,6 +49,9 @@ install_script() {
     ;;
   'upgrade')
     sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/update.sh -O --progress
+    ;;
+  '')
+    echo "默认"
     ;;
   esac
 }
