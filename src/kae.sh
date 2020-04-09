@@ -36,6 +36,7 @@ init() {
     echo "当前版本不一致, 将开始进行更新。。。"
     return 1
   fi
+
   echo "当前版本一致, 将不进行更新"
   return 0
 }

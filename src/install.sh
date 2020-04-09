@@ -52,6 +52,7 @@ install_script() {
     ;;
   '')
     echo "默认"
+    install_shell
     ;;
   esac
 }
