@@ -12,10 +12,6 @@ SCRIPT_ROOT_PATH="/usr/local/kae/"
 # 脚本路径
 KAE_FILE_PATH=''
 
-update() {
-  echo "开始更新......"
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/pepperer/shelljs/master/src/install.sh)"
-}
 
 init() {
   if [[ ! -d $ROOT_DIR_PATH ]]; then
@@ -57,8 +53,8 @@ case $1 in
 'help')
   sh ./help.sh
   ;;
-'update')
-  sh ./update.sh
+'upgrade')
+  sh ./upgrade.sh
   ;;
 *)
   echo "当前为选择功能或该功能暂不支持"
