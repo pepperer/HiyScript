@@ -6,7 +6,7 @@ CONFIG_FILE_PATH="${ROOT_DIR_PATH}/config" # 配置文件路径
 
 upgrade() {
   echo "更新模块${1}"
-#  sh ./install.sh
+  sh ./install.sh $1
 }
 
 check() {
