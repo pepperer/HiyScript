@@ -30,7 +30,6 @@ install_shell() {
 }
 
 install_script() {
-  cd kae
   echo "准备开始安装脚本$1"
   case $1 in
   'shell')
@@ -65,6 +64,9 @@ install_script() {
 if have_sudo_access; then
   echo "获取到sudo权限"
   create_root_dir
+  # 进入到kae 根目录
+  cd kae
+  # 开始安装脚本
   install_script $1
   # 同步配置和版本信息
   sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/config -O --progress
