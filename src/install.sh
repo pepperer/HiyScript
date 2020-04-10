@@ -52,7 +52,11 @@ install_script() {
     ;;
   '')
     echo "默认"
-    install_shell
+    install_script shell
+    install_script upload
+    install_script adb
+    install_script upgrade
+    install_script position
     ;;
   esac
 }
