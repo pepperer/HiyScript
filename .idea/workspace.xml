@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a39e6190-d81e-44e8-aee4-3b032f2cdc75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/version" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config" beforeDir="false" afterPath="$PROJECT_DIR$/src/config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/install.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kae.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/kae.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/upgrade.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/upgrade.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,10 +134,11 @@
       <screen x="0" y="23" width="1440" height="802" />
     </state>
     <state x="320" y="90" key="#Updates/0.23.1440.802@0.23.1440.802" timestamp="1586452361557" />
-    <state x="-1890" y="247" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586063022311">
-      <screen x="-2560" y="-129" width="2560" height="1417" />
+    <state x="377" y="236" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586536139039">
+      <screen x="0" y="23" width="1440" height="802" />
     </state>
     <state x="-1890" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.802/-2560.-129.2560.1417/1440.-16.1920.1057@-2560.-129.2560.1417" timestamp="1586063022311" />
+    <state x="377" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.802@0.23.1440.802" timestamp="1586536139039" />
     <state x="377" y="238" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.811@0.23.1440.811" timestamp="1585841502483" />
     <state x="-1635" y="182" key="CommitChangelistDialog2" timestamp="1586018984758">
       <screen x="-2560" y="-129" width="2560" height="1417" />
@@ -152,11 +158,11 @@
     <state x="-1888" y="-57" width="1215" height="1273" key="find.popup/0.23.1440.802/-2560.-129.2560.1417/1440.-16.1920.1057@-2560.-129.2560.1417" timestamp="1586064509879" />
     <state x="378" y="64" width="684" height="721" key="find.popup/0.23.1440.802@0.23.1440.802" timestamp="1586453544060" />
     <state x="378" y="64" width="683" height="729" key="find.popup/0.23.1440.812@0.23.1440.812" timestamp="1585846152303" />
-    <state x="532" y="207" width="670" height="383" key="search.everywhere.popup" timestamp="1586281104801">
+    <state x="532" y="207" width="670" height="383" key="search.everywhere.popup" timestamp="1586536869658">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
     <state x="-1615" y="196" width="670" height="676" key="search.everywhere.popup/0.23.1440.802/-2560.-129.2560.1417/1440.-16.1920.1057@-2560.-129.2560.1417" timestamp="1586019505978" />
-    <state x="532" y="207" width="670" height="383" key="search.everywhere.popup/0.23.1440.802@0.23.1440.802" timestamp="1586281104801" />
+    <state x="532" y="207" width="670" height="383" key="search.everywhere.popup/0.23.1440.802@0.23.1440.802" timestamp="1586536869658" />
   </component>
   <component name="masterDetails">
     <states>

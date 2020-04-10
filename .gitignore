@@ -5,3 +5,4 @@
 # IntelliJ project files
 .idea/
 src/tuyasmart_appshell/
+src/config

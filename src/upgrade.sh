@@ -2,7 +2,7 @@
 
 #### 配置文件相关
 ROOT_DIR_PATH="${HOME}/.kae"               # config的根目录
-CONFIG_FILE_PATH="${ROOT_DIR_PATH}/config" # 配置文件路径
+CONFIG_FILE_PATH="${ROOT_DIR_PATH}/version" # 配置文件路径
 
 upgrade() {
   echo "更新模块${1}"
@@ -11,7 +11,7 @@ upgrade() {
 
 check() {
   echo "模块:$1;版本:$2"
-  remote_content=$(curl -s https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/config)
+  remote_content=$(curl -s https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/version)
   version=$(echo "$remote_content" | grep "${1}" | cut -f2 -d "/")
 
   echo "获得的结果是: $1 ==>  $2 == $version"
