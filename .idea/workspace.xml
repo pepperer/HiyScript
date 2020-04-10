@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a39e6190-d81e-44e8-aee4-3b032f2cdc75" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dist/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/kae" beforeDir="false" afterPath="$PROJECT_DIR$/dist/kae" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/android.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/android.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/build.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/install-local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tools/install-local.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tools/install.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kae.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/kae.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/position.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/position.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/publish.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tools/publish.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/upgrade.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/upgrade.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/upload.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/upload.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,20 +39,23 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585021907721" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dist" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tools" />
       <recent name="$PROJECT_DIR$/template" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -138,12 +153,12 @@
       <screen x="-2560" y="-129" width="2560" height="1417" />
     </state>
     <state x="-1635" y="182" key="CommitChangelistDialog2/0.23.1440.802/-2560.-129.2560.1417/1440.-16.1920.1057@-2560.-129.2560.1417" timestamp="1586018984758" />
-    <state x="150" y="103" key="SettingsEditor" timestamp="1586281037792">
+    <state x="150" y="103" key="SettingsEditor" timestamp="1586538977911">
       <screen x="0" y="23" width="1440" height="802" />
     </state>
     <state x="-1771" y="207" key="SettingsEditor/0.0.1440.900/-2560.-152.2560.1440/1440.-39.1920.1080@-2560.-152.2560.1440" timestamp="1585752966871" />
     <state x="-2293" y="25" key="SettingsEditor/0.23.1440.802/-2560.-129.2560.1417/1440.-16.1920.1057@-2560.-129.2560.1417" timestamp="1586019027726" />
-    <state x="150" y="103" key="SettingsEditor/0.23.1440.802@0.23.1440.802" timestamp="1586281037792" />
+    <state x="150" y="103" key="SettingsEditor/0.23.1440.802@0.23.1440.802" timestamp="1586538977911" />
     <state x="150" y="111" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1585842662492" />
     <state x="150" y="111" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1585847509028" />
     <state x="378" y="64" width="684" height="721" key="find.popup" timestamp="1586453544060">

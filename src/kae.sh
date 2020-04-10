@@ -45,20 +45,27 @@ path=$(pwd)
 echo "当前的环境是${env}, 当前的工作路径为${path}"
 if [[ $env != "dev" ]]; then
   echo '进入正式环境'
-  cd /usr/local/kae/
+  source /usr/local/kae/upload.sh
+  source /usr/local/kae/android.sh
+  source /usr/local/kae/position.sh
+  source /usr/local/kae/upgrade.sh
 else
   echo '进入开发环境'
+  source ./upload.sh
+  source ./android.sh
+  source ./position.sh
+  source ./upgrade.sh
 fi
 
 case $1 in
 'upload')
-  sh ./upload.sh
+  upload
   ;;
 'position')
   sh ./position.sh "${2}"
   ;;
 'adb')
-  sh ./android.sh "${2}"
+  android "${2}"
   ;;
 'help')
   sh ./help.sh
