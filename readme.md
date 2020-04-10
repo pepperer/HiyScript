@@ -1,4 +1,6 @@
-# 鲸落脚本(目前维护中，暂不可用)
+# 鲸落脚本
+#### 安装
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/install.sh)"
 ```
+
