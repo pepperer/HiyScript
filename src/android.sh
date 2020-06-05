@@ -27,7 +27,7 @@ android() {
 
   echo "当前输入的第一个参数为${1}"
   case $1 in
-  'top')
+  'activity')
     #  adb -s ${deviceCode} shell dumpsys activity | grep mResumedActivity:
     adb -s ${deviceCode} shell dumpsys window | grep mCurrentFocus
     #  adb -s ${deviceCode} shell dumpsys activity | grep mFocusedActivity

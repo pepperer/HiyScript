@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a39e6190-d81e-44e8-aee4-3b032f2cdc75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dist/config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/build.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/kae" beforeDir="false" afterPath="$PROJECT_DIR$/dist/kae" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/android.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/android.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/build.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/install-local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tools/install-local.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tools/install.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/kae.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/kae.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/position.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/position.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/publish.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tools/publish.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/upgrade.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/upgrade.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/upload.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/upload.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tools/build.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +19,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -37,6 +26,7 @@
     <property name="add_unversioned_files" value="true&#10;/Users/zhishui/IdeaProjects/shell/src/tuyasmart_appshell/tuyaDependence.gradle" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585021907721" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/dist" />
@@ -104,11 +94,9 @@
       <workItem from="1583756660271" duration="14000" />
       <workItem from="1584445923798" duration="3639000" />
       <workItem from="1585018922115" duration="2008000" />
+      <workItem from="1591347485588" duration="397000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34134000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -120,7 +108,7 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
