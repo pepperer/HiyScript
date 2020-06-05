@@ -34,16 +34,16 @@ case $1 in
   upload
   ;;
 'position')
-  sh ./position.sh "${2}"
+  position "${2}"
   ;;
 'adb')
   android "${2}"
   ;;
-'help')
-  sh ./help.sh
-  ;;
+  #'help')
+  #  sh ./help.sh
+  #  ;;
 'upgrade')
-  sh ./upgrade.sh
+  upgrade
   ;;
 *)
   echo "当前为选择功能或该功能暂不支持"

@@ -47,6 +47,12 @@ install_script() {
   'upgrade')
     sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/upgrade.sh -O --progress
     ;;
+  'install')
+    sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/tools/install.sh -O --progress
+    ;;
+  'uninstall')
+    sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/tools/uninstall.sh -O --progress
+    ;;
   '')
     echo "默认"
     install_script shell
@@ -54,6 +60,8 @@ install_script() {
     install_script adb
     install_script upgrade
     install_script position
+    install_script install
+    install_script uninstall
     ;;
   esac
 }
