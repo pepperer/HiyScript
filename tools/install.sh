@@ -67,6 +67,7 @@ if have_sudo_access; then
   # 开始安装脚本
   install_script $1
   # 同步配置和版本信息
+  echo "准备开始安装版本信息"
   sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/config -O --progress
 else
   echo "未获取到sudo权限"
