@@ -5,7 +5,7 @@ upload() {
   SETTING_PATH="${ROOT_PATH}/settings.gradle"
 
   echo "上传脚本的路径 $ROOT_PATH"
-  return
+
   # 1. 判断setting 文件是否存在
   if [[ ! -f ${SETTING_PATH} ]]; then
     echo "${SETTING_PATH} 没找到"
