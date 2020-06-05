@@ -23,7 +23,7 @@ create_root_dir() {
 }
 
 install_shell() {
-  echo "开始更新壳"
+  echo "开始安装壳"
   sudo curl https://raw.githubusercontent.com/pepperer/shelljs/master/dist/kae -O --progress
   sudo chmod 555 kae
   ln -sf /usr/local/kae/kae /usr/local/bin/kae
@@ -36,9 +36,7 @@ install_script() {
     install_shell
     ;;
   'upload')
-    echo "开始更新上传"
     sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/upload.sh -O --progress
-    sudo
     ;;
   'position')
     sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/position.sh -O --progress
@@ -47,7 +45,7 @@ install_script() {
     sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/android.sh -O --progress
     ;;
   'upgrade')
-    sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/update.sh -O --progress
+    sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/upgrade.sh -O --progress
     ;;
   '')
     echo "默认"
