@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a39e6190-d81e-44e8-aee4-3b032f2cdc75" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/android.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/android.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/kae.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/kae.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tools/build.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/version" beforeDir="false" afterPath="$PROJECT_DIR$/src/version" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +91,7 @@
       <workItem from="1583756660271" duration="14000" />
       <workItem from="1584445923798" duration="3639000" />
       <workItem from="1585018922115" duration="2008000" />
-      <workItem from="1591347485588" duration="397000" />
+      <workItem from="1591347485588" duration="465000" />
     </task>
     <servers />
   </component>
