@@ -6,3 +6,4 @@
 .idea/
 src/tuyasmart_appshell/
 src/config
+./src/branch.sh

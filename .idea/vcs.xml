@@ -2,5 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/res/TuyaUiSpecs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/res/TuyaUiSpecs/TYSecurity_Base" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/res/TuyaUiSpecs/tuya-work-flow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/res/tuya-work-flow" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/TuyaSmart_Config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/TuyaUiSpecs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/tuya-work-flow" vcs="Git" />
   </component>
 </project>

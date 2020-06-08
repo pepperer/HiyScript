@@ -1,10 +1,1 @@
-# 鲸落脚本
-#### 安装
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/pepperer/Whale-fall/master/tools/install.sh)"
-```
-
-#### todo list 
-- 支持本地安装, 开发调试
-- build publish 脚本更新
-
+https://blog.csdn.net/Jerry_1126/article/details/83930956

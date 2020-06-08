@@ -21,12 +21,14 @@ if [[ $env == "dev" ]]; then
   source ./android.sh
   source ./position.sh
   source ./upgrade.sh
+  source ./vsc.sh
 else
   echo '进入正式环境'
   source /usr/local/kae/upload.sh
   source /usr/local/kae/android.sh
   source /usr/local/kae/position.sh
   source /usr/local/kae/upgrade.sh
+  source /usr/local/kae/vsc.sh
 fi
 
 case $1 in
@@ -44,6 +46,9 @@ case $1 in
   #  ;;
 'upgrade')
   upgrade
+  ;;
+'vsc')
+  vsc ${1}
   ;;
 *)
   echo "当前为选择功能或该功能暂不支持"
