@@ -91,10 +91,6 @@ unRegisterGitPath() {
   sed -i "_back" "/${curPath}/d" ${GIT_CONFIG_PATH}
 }
 
-dailyDo() {
-  echo '每日提交'
-}
-
 # 查看结果
 #echo "测试, 先清除配置文件中的内容"
 #clear
@@ -109,18 +105,24 @@ vsc() {
   case $1 in
   'register')
     registerGitPath
+    cat $GIT_CONFIG_PATH
     ;;
   'unRegister')
     unRegisterGitPath
+    cat $GIT_CONFIG_PATH
     ;;
-  'daily')
-  dailyDo
+  'cat')
+    cat $GIT_CONFIG_PATH
+    ;;
+  *)
+    echo "当前为选择功能或该功能暂不支持"
+    ;;
   esac
 }
 
 vsc ${1}
 
-echo "\n\n开始查看结果 == >>>>"
-cat $GIT_CONFIG_PATH
+#echo "\n\n开始查看结果 == >>>>"
+#cat $GIT_CONFIG_PATH
 
 #export vsc
