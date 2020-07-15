@@ -91,6 +91,28 @@ unRegisterGitPath() {
   sed -i "_back" "/${curPath}/d" ${GIT_CONFIG_PATH}
 }
 
+gitStatusItem() {
+  cd $1
+  ret=($(git status -s))
+  length=${#ret[*]}
+  if [[ ${length} -eq 0 ]]; then
+    cherry=($(git cherry -v))
+    if [[ ${#cherry[*]} -eq 0 ]]; then
+      echo "${1}项目：当前状态完美"
+    else
+      echo "${1}项目：当前有代码-未push，请查收"
+    fi
+  else
+    echo "${1}项目：当前有代码-待提交, 请查收"
+  fi
+}
+
+gitStatus() {
+  while read line || [[ -n ${line} ]]; do
+    gitStatusItem ${line}
+  done <${GIT_CONFIG_PATH}
+}
+
 # 查看结果
 #echo "测试, 先清除配置文件中的内容"
 #clear
@@ -101,18 +123,24 @@ unRegisterGitPath() {
 #unRegisterGitPath
 
 vsc() {
-  echo "当前输入功能为:${1}"
+  echo "当前输入功能为:${1}\n\n"
   case $1 in
   'register')
     registerGitPath
-    cat $GIT_CONFIG_PATH
+#    cat $GIT_CONFIG_PATH
     ;;
   'unRegister')
     unRegisterGitPath
-    cat $GIT_CONFIG_PATH
+#    cat $GIT_CONFIG_PATH
     ;;
   'cat')
+    z
     cat $GIT_CONFIG_PATH
+    ;;
+  'status')
+#    git status -s
+#    echo 当前结果:$?
+    gitStatus
     ;;
   *)
     echo "当前为选择功能或该功能暂不支持"
@@ -120,9 +148,9 @@ vsc() {
   esac
 }
 
-vsc ${1}
+#vsc ${1}
 
 #echo "\n\n开始查看结果 == >>>>"
 #cat $GIT_CONFIG_PATH
 
-#export vsc
+export vsc
