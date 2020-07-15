@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a39e6190-d81e-44e8-aee4-3b032f2cdc75" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/kae" beforeDir="false" afterPath="$PROJECT_DIR$/dist/kae" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/kae.sh" beforeDir="false" afterPath="$PROJECT_DIR$/dist/kae.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/build.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tools/build.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/install-local.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tools/install-local.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/install.sh" beforeDir="false" afterPath="$PROJECT_DIR$/tools/install.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +113,7 @@
       <workItem from="1594621996490" duration="12242000" />
       <workItem from="1594694057019" duration="3707000" />
       <workItem from="1594724987529" duration="2553000" />
-      <workItem from="1594793646722" duration="3379000" />
+      <workItem from="1594793646722" duration="3682000" />
     </task>
     <servers />
   </component>
