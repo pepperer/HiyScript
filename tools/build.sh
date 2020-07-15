@@ -3,8 +3,8 @@
 cp -f ../src/kae.sh ../dist/kae
 chmod 555 ../dist/kae
 
-cp -f ../src/daily.sh ../dist/daily
-chmod 555 ../dist/dailyDo
+#cp -f ../src/daily.sh ../dist/daily
+#chmod 555 ../dist/dailyDo
 
 cp -f ../src/kae.sh ../dist/kae.sh
 cp -f ../src/upload.sh ../dist/upload.sh
