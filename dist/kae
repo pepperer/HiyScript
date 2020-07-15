@@ -22,18 +22,7 @@ else
   source /usr/local/kae/android.sh
   source /usr/local/kae/position.sh
   source /usr/local/kae/upgrade.sh
-<<<<<<< Updated upstream
   source /usr/local/kae/vsc.sh
-=======
-  source /usr/local/kae/image.sh
-else
-  echo '进入开发环境'
-  source ./upload.sh
-  source ./android.sh
-  source ./position.sh
-  source ./upgrade.sh
-  source ./image.sh
->>>>>>> Stashed changes
 fi
 
 case $1 in
@@ -46,18 +35,9 @@ case $1 in
 'adb')
   android "${2}"
   ;;
-<<<<<<< Updated upstream
   #'help')
   #  sh ./help.sh
   #  ;;
-=======
-'help')
-  sh ./help.sh
-  ;;
-'image')
-  handleImage "${2}" "${3}"
-;;
->>>>>>> Stashed changes
 'upgrade')
   upgrade
   ;;
