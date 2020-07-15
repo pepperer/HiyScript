@@ -107,6 +107,16 @@ gitStatusItem() {
   fi
 }
 
+gitPush() {
+  while read line || [[ -n ${line} ]]; do
+    cd $1
+    git add .
+    git commit -m '日常提交'
+    git pull
+    git push
+  done <${GIT_CONFIG_PATH}
+}
+
 gitStatus() {
   while read line || [[ -n ${line} ]]; do
     gitStatusItem ${line}
@@ -127,20 +137,21 @@ vsc() {
   case $1 in
   'register')
     registerGitPath
-#    cat $GIT_CONFIG_PATH
+    #    cat $GIT_CONFIG_PATH
     ;;
   'unRegister')
     unRegisterGitPath
-#    cat $GIT_CONFIG_PATH
+    #    cat $GIT_CONFIG_PATH
     ;;
   'cat')
     z
     cat $GIT_CONFIG_PATH
     ;;
   'status')
-#    git status -s
-#    echo 当前结果:$?
     gitStatus
+    ;;
+  'push_lsd')
+    gitPush
     ;;
   *)
     echo "当前为选择功能或该功能暂不支持"

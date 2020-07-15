@@ -5,15 +5,11 @@ ROOT_DIR_PATH="${HOME}/.kae"
 # 环境配置文件
 ENV_CONFIG_PATH="${ROOT_DIR_PATH}/env_config"
 
-
-initKaeRoot
-initEnvConfig
-
 env=$(cat "${ENV_CONFIG_PATH}" | cut -f2 -d '=')
 path=$(pwd)
 echo "当前的环境是${env}, 当前的工作路径为${path}"
 
-if [[ $env = "dev" ]]; then
+if [[ $env == "dev" ]]; then
   echo '进入开发环境'
   source /Users/zhishui/sync/Whale-fall/src/upload.sh
   source /Users/zhishui/sync/Whale-fall/src/android.sh
@@ -49,8 +45,8 @@ case $1 in
   vsc ${2}
   ;;
 'switch')
-   echo "env=${2}" > "${ENV_CONFIG_PATH}"
-   cat "${ENV_CONFIG_PATH}"
+  echo "env=${2}" >"${ENV_CONFIG_PATH}"
+  cat "${ENV_CONFIG_PATH}"
   ;;
 *)
   echo "当前为选择功能或该功能暂不支持"
