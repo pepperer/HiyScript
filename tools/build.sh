@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 cp -f ../src/kae.sh ../dist/kae
 chmod 555 ../dist/kae
 
