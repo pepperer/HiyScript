@@ -22,7 +22,7 @@ else
   source /usr/local/kae/android.sh
   source /usr/local/kae/position.sh
   source /usr/local/kae/upgrade.sh
-#  source /usr/local/kae/vsc.sh
+  source /usr/local/kae/vsc.sh
 fi
 
 case $1 in
