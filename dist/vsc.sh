@@ -134,7 +134,9 @@ gitStatus() {
 #unRegisterGitPath
 
 vsc() {
-  echo "当前输入功能为:${1} \\n\\n"
+  echo "当前输入功能为:${1} "
+  echo
+
   case $1 in
   'register')
     registerGitPath

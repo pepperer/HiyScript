@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a39e6190-d81e-44e8-aee4-3b032f2cdc75" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/vsc.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/vsc.sh" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/res/ic_close_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/ic_close_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/ic_close_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/image.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/login/build.grade" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sync_lib.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/kae.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/kae.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/upload.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/upload.sh" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +57,27 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+<<<<<<< Updated upstream
       <recent name="$PROJECT_DIR$/temp" />
+=======
+      <recent name="$PROJECT_DIR$/res" />
+>>>>>>> Stashed changes
       <recent name="$PROJECT_DIR$/tools" />
       <recent name="$PROJECT_DIR$/template" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+<<<<<<< Updated upstream
       <recent name="$PROJECT_DIR$/tools" />
+=======
+      <recent name="$PROJECT_DIR$/res" />
+>>>>>>> Stashed changes
       <recent name="$PROJECT_DIR$/dist" />
     </key>
   </component>
@@ -135,9 +155,16 @@
       <screen x="0" y="23" width="1440" height="802" />
     </state>
     <state x="320" y="90" key="#Updates/0.23.1440.802@0.23.1440.802" timestamp="1586452361557" />
+<<<<<<< Updated upstream
     <state x="1943" y="199" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1594694594611">
       <screen x="1440" y="-82" width="1920" height="1057" />
     </state>
+=======
+    <state x="-1890" y="247" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1587826438790">
+      <screen x="-2560" y="-129" width="2560" height="1417" />
+    </state>
+    <state x="-1890" y="247" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.802/-2560.-129.2560.1417/1440.-16.1920.1057@-2560.-129.2560.1417" timestamp="1587826438790" />
+>>>>>>> Stashed changes
     <state x="377" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.802@0.23.1440.802" timestamp="1586536139039" />
     <state x="1943" y="199" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.805/1440.-82.1920.1057@1440.-82.1920.1057" timestamp="1594622163845" />
     <state x="1943" y="199" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.806/1440.-82.1920.1057@1440.-82.1920.1057" timestamp="1591581873466" />
@@ -145,13 +172,28 @@
     <state x="1640" y="23" key="SettingsEditor" timestamp="1591582007266">
       <screen x="1440" y="-82" width="1920" height="1057" />
     </state>
+<<<<<<< Updated upstream
     <state x="150" y="103" key="SettingsEditor/0.23.1440.802@0.23.1440.802" timestamp="1586538977911" />
     <state x="1640" y="23" key="SettingsEditor/0.23.1440.806/1440.-82.1920.1057@1440.-82.1920.1057" timestamp="1591582007266" />
     <state x="1640" y="16" key="SettingsEditor/0.23.1440.877/1440.-82.1920.985@1440.-82.1920.985" timestamp="1591351124533" />
     <state x="378" y="64" width="684" height="732" key="find.popup" timestamp="1594799002726">
       <screen x="0" y="23" width="1440" height="811" />
+=======
+    <state x="-1635" y="182" key="CommitChangelistDialog2/0.23.1440.802/-2560.-129.2560.1417/1440.-16.1920.1057@-2560.-129.2560.1417" timestamp="1586018984758" />
+    <state x="-2293" y="25" key="SettingsEditor" timestamp="1587830846634">
+      <screen x="-2560" y="-129" width="2560" height="1417" />
+    </state>
+    <state x="-1771" y="207" key="SettingsEditor/0.0.1440.900/-2560.-152.2560.1440/1440.-39.1920.1080@-2560.-152.2560.1440" timestamp="1585752966871" />
+    <state x="-2293" y="25" key="SettingsEditor/0.23.1440.802/-2560.-129.2560.1417/1440.-16.1920.1057@-2560.-129.2560.1417" timestamp="1587830846634" />
+    <state x="150" y="103" key="SettingsEditor/0.23.1440.802@0.23.1440.802" timestamp="1586972575172" />
+    <state x="150" y="111" key="SettingsEditor/0.23.1440.811@0.23.1440.811" timestamp="1585842662492" />
+    <state x="150" y="111" key="SettingsEditor/0.23.1440.812@0.23.1440.812" timestamp="1585847509028" />
+    <state x="378" y="64" width="684" height="721" key="find.popup" timestamp="1586453544060">
+      <screen x="0" y="23" width="1440" height="802" />
+>>>>>>> Stashed changes
     </state>
     <state x="378" y="64" width="684" height="721" key="find.popup/0.23.1440.802@0.23.1440.802" timestamp="1586453544060" />
+<<<<<<< Updated upstream
     <state x="1944" y="-28" width="912" height="951" key="find.popup/0.23.1440.805/1440.-82.1920.1057@1440.-82.1920.1057" timestamp="1594623797915" />
     <state x="378" y="64" width="684" height="732" key="find.popup/0.23.1440.811@0.23.1440.811" timestamp="1594799002726" />
     <state x="378" y="64" width="684" height="734" key="find.popup/0.23.1440.814@0.23.1440.814" timestamp="1594726409486" />
@@ -159,6 +201,17 @@
     <state x="2149" y="161" width="894" height="505" key="search.everywhere.popup" timestamp="1594698555852">
       <screen x="1440" y="-82" width="1920" height="1057" />
     </state>
+=======
+    <state x="378" y="64" width="683" height="729" key="find.popup/0.23.1440.812@0.23.1440.812" timestamp="1585846152303" />
+    <state x="97" y="34" key="new project wizard" timestamp="1586970934107">
+      <screen x="0" y="23" width="1440" height="802" />
+    </state>
+    <state x="97" y="34" key="new project wizard/0.23.1440.802@0.23.1440.802" timestamp="1586970934107" />
+    <state x="-1615" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1587827215399">
+      <screen x="-2560" y="-129" width="2560" height="1417" />
+    </state>
+    <state x="-1615" y="196" width="670" height="676" key="search.everywhere.popup/0.23.1440.802/-2560.-129.2560.1417/1440.-16.1920.1057@-2560.-129.2560.1417" timestamp="1587827215399" />
+>>>>>>> Stashed changes
     <state x="532" y="207" width="670" height="383" key="search.everywhere.popup/0.23.1440.802@0.23.1440.802" timestamp="1586537485333" />
     <state x="2149" y="161" width="894" height="506" key="search.everywhere.popup/0.23.1440.805/1440.-82.1920.1057@1440.-82.1920.1057" timestamp="1594627421258" />
     <state x="2149" y="144" width="894" height="472" key="search.everywhere.popup/0.23.1440.805/1440.-82.1920.985@1440.-82.1920.985" timestamp="1594639535753" />
