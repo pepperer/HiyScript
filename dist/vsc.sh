@@ -109,7 +109,8 @@ gitStatusItem() {
 
 gitPush() {
   while read line || [[ -n ${line} ]]; do
-    cd $1
+    cd $line
+    pwd
     git add .
     git commit -m '日常提交'
     git pull
@@ -133,7 +134,7 @@ gitStatus() {
 #unRegisterGitPath
 
 vsc() {
-  echo "当前输入功能为:${1}\n\n"
+  echo "当前输入功能为:${1} \\n\\n"
   case $1 in
   'register')
     registerGitPath
@@ -144,7 +145,6 @@ vsc() {
     #    cat $GIT_CONFIG_PATH
     ;;
   'cat')
-    z
     cat $GIT_CONFIG_PATH
     ;;
   'status')

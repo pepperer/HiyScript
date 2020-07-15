@@ -109,7 +109,6 @@ gitStatusItem() {
 
 gitPush() {
   while read line || [[ -n ${line} ]]; do
-    echo $line
     cd $line
     pwd
     git add .
