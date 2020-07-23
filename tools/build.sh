@@ -1,13 +1,10 @@
 #!/usr/bin/env bash
 
-
+##
 #### 需要重构 ===> 编译 + 自动上传  现在github cache-control 5 分钟的缓存已经取改为0分了
 
 cp -f ./src/kae.sh ./dist/kae
 chmod 555 ./dist/kae
-
-#cp -f ./src/daily.sh ./dist/daily
-#chmod 555 ./dist/dailyDo
 
 cp -f ./src/kae.sh ./dist/kae.sh
 cp -f ./src/upload.sh ./dist/upload.sh
