@@ -118,6 +118,7 @@ gitPush() {
   done <${GIT_CONFIG_PATH}
 }
 
+
 gitStatus() {
   while read line || [[ -n ${line} ]]; do
     gitStatusItem ${line}
