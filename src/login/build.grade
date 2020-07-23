@@ -1,7 +1,0 @@
-upInfo {
-    version = "1.0.0-SNAPSHOT"
-    artifactId = "prefix-suffix"
-    groupId = "group"
-    checkPkgRes = false
-    hasPomDepend = false
-}
