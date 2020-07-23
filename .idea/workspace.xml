@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a39e6190-d81e-44e8-aee4-3b032f2cdc75" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vsc.sh" beforeDir="false" afterPath="$PROJECT_DIR$/src/vsc.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +111,9 @@
       <workItem from="1594621996490" duration="12242000" />
       <workItem from="1594694057019" duration="3707000" />
       <workItem from="1594724987529" duration="2553000" />
-      <workItem from="1594793646722" duration="6550000" />
+      <workItem from="1594793646722" duration="7189000" />
+      <workItem from="1594807234577" duration="942000" />
+      <workItem from="1595187591940" duration="158000" />
     </task>
     <servers />
   </component>
@@ -148,12 +148,13 @@
     <state x="150" y="103" key="SettingsEditor/0.23.1440.802@0.23.1440.802" timestamp="1586538977911" />
     <state x="1640" y="23" key="SettingsEditor/0.23.1440.806/1440.-82.1920.1057@1440.-82.1920.1057" timestamp="1591582007266" />
     <state x="1640" y="16" key="SettingsEditor/0.23.1440.877/1440.-82.1920.985@1440.-82.1920.985" timestamp="1591351124533" />
-    <state x="378" y="64" width="684" height="732" key="find.popup" timestamp="1594799002726">
-      <screen x="0" y="23" width="1440" height="811" />
+    <state x="378" y="64" width="684" height="733" key="find.popup" timestamp="1594807399351">
+      <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state x="378" y="64" width="684" height="721" key="find.popup/0.23.1440.802@0.23.1440.802" timestamp="1586453544060" />
     <state x="1944" y="-28" width="912" height="951" key="find.popup/0.23.1440.805/1440.-82.1920.1057@1440.-82.1920.1057" timestamp="1594623797915" />
     <state x="378" y="64" width="684" height="732" key="find.popup/0.23.1440.811@0.23.1440.811" timestamp="1594799002726" />
+    <state x="378" y="64" width="684" height="733" key="find.popup/0.23.1440.812@0.23.1440.812" timestamp="1594807399351" />
     <state x="378" y="64" width="684" height="734" key="find.popup/0.23.1440.814@0.23.1440.814" timestamp="1594726409486" />
     <state x="1944" y="-32" width="912" height="887" key="find.popup/0.23.1440.877/1440.-82.1920.985@1440.-82.1920.985" timestamp="1594633593106" />
     <state x="2149" y="161" width="894" height="505" key="search.everywhere.popup" timestamp="1594698555852">
