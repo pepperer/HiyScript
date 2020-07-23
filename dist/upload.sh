@@ -1,3 +1,5 @@
+
+
 upload() {
   # 获取当前地址
   ROOT_PATH=$(pwd)
@@ -43,9 +45,9 @@ upload() {
     echo "执行的命令为 ===> ./gradlew ${module}:upload"
     cd "${module}" || exit #  如果没有找到目录的话  则推出当前的目录
     ../gradlew upload      # 执行
+    sync
     cd ..
   done
-
 }
 
 export upload
