@@ -30,12 +30,12 @@ isExist() {
 
 isGitP() {
   curPath=$(pwd)
-  if [[ ! -d "${curPath}/.git" ]]; then
-    return 201
-  elif [[ ! -f "${curPath}/.git" ]]; then
-    return 201
-  else
+  if [[  -d "${curPath}/.git" ]]; then
     return 200
+  elif [[  -f "${curPath}/.git" ]]; then
+    return 200
+  else
+    return 201
   fi
 }
 
