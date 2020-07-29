@@ -3,6 +3,7 @@
 ##
 #### 需要重构 ===> 编译 + 自动上传  现在github cache-control 5 分钟的缓存已经取改为0分了
 
+pwd
 cp -f ./src/kae.sh ./dist/kae
 chmod 555 ./dist/kae
 
