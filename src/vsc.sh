@@ -32,7 +32,8 @@ isGitP() {
   curPath=$(pwd)
   if [[ ! -d "${curPath}/.git" ]]; then
     return 201
-  else
+  elif [[ ! -f "${curPath}/.git" ]]; then
+          return 201
     return 200
   fi
 }

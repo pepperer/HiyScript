@@ -32,7 +32,8 @@ isGitP() {
   curPath=$(pwd)
   if [[ ! -d "${curPath}/.git" ]]; then
     return 201
-  else
+  elif [[ ! -f "${curPath}/.git" ]]; then
+          return 201
     return 200
   fi
 }
@@ -117,6 +118,7 @@ gitPush() {
     git push
   done <${GIT_CONFIG_PATH}
 }
+
 
 gitStatus() {
   while read line || [[ -n ${line} ]]; do

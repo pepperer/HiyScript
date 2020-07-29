@@ -16,6 +16,7 @@ if [[ $env == "dev" ]]; then
   source /Users/zhishui/sync/Whale-fall/src/position.sh
   source /Users/zhishui/sync/Whale-fall/src/upgrade.sh
   source /Users/zhishui/sync/Whale-fall/src/vsc.sh
+  source /Users/zhishui/sync/Whale-fall/src/tools.sh
 else
   echo '进入正式环境'
   source /usr/local/kae/upload.sh
@@ -23,6 +24,7 @@ else
   source /usr/local/kae/position.sh
   source /usr/local/kae/upgrade.sh
   source /usr/local/kae/vsc.sh
+  source /usr/local/kae/tools.sh
 fi
 
 case $1 in
@@ -43,6 +45,9 @@ case $1 in
   ;;
 'vsc')
   vsc ${2}
+  ;;
+'tools')
+  tools ${2} ${3}
   ;;
 'switch')
   echo "env=${2}" >"${ENV_CONFIG_PATH}"
