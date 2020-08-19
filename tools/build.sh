@@ -14,6 +14,7 @@ cp -f ./src/position.sh ./dist/position.sh
 cp -f ./src/upgrade.sh ./dist/upgrade.sh
 cp -f ./src/vsc.sh ./dist/vsc.sh
 cp -f ./src/init.sh ./dist/init.sh
+cp -f ./src/tools.sh ./dist/tools.sh
 
 cp -f ./tools/install.sh ./dist/install.sh
 cp -f ./tools/uninstall.sh ./dist/uninstall.sh

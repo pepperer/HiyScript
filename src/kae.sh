@@ -47,11 +47,12 @@ case $1 in
   vsc ${2}
   ;;
 'tools')
-  tools ${2} ${3}
+  tools ${2} // 参数
   ;;
 'switch')
-  echo "env=${2}" >"${ENV_CONFIG_PATH}"
-  cat "切换环境为${ENV_CONFIG_PATH}"
+  cat ${ENV_CONFIG_PATH}
+  echo "env=${2}" > ${ENV_CONFIG_PATH}
+  echo "切换环境为${2}"
   ;;
 *)
   echo "当前为选择功能或该功能暂不支持"

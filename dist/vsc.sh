@@ -30,9 +30,9 @@ isExist() {
 
 isGitP() {
   curPath=$(pwd)
-  if [[  -d "${curPath}/.git" ]]; then
+  if [[ -d "${curPath}/.git" ]]; then
     return 200
-  elif [[  -f "${curPath}/.git" ]]; then
+  elif [[ -f "${curPath}/.git" ]]; then
     return 200
   else
     return 201
@@ -126,6 +126,13 @@ gitStatus() {
   done <${GIT_CONFIG_PATH}
 }
 
+gitBranch() {
+  while read line || [[ -n ${line} ]]; do
+    git symbolic-ref --short -q HEAD
+  done <${GIT_CONFIG_PATH}
+
+}
+
 # 查看结果
 #echo "测试, 先清除配置文件中的内容"
 #clear
@@ -156,6 +163,9 @@ vsc() {
     ;;
   'push_lsd')
     gitPush
+    ;;
+  'branch')
+    gitBranch
     ;;
   *)
     echo "当前为选择功能或该功能暂不支持"

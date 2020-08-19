@@ -20,7 +20,7 @@ create_root_dir() {
     echo "正在创建kae目录"
     sudo mkdir -v /usr/local/kae
   else
-     echo "/usr/local/kae 目录已创建"
+    echo "/usr/local/kae 目录已创建"
   fi
 }
 
@@ -38,19 +38,22 @@ install_script() {
     install_shell
     ;;
   'upload')
-    sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/upload.sh -O --progress
+    sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/dist/upload.sh -O --progress
     ;;
   'position')
-    sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/position.sh -O --progress
+    sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/dist/position.sh -O --progress
     ;;
   'adb')
-    sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/android.sh -O --progress
+    sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/dist/android.sh -O --progress
     ;;
   'upgrade')
-    sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/upgrade.sh -O --progress
+    sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/dist/upgrade.sh -O --progress
     ;;
   'vsc')
-    sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/vsc.sh -O --progress
+    sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/dist/vsc.sh -O --progress
+    ;;
+  'tools')
+    sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/dist/tools.sh -O --progress
     ;;
   'install')
     sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/tools/install.sh -O --progress
@@ -68,11 +71,11 @@ install_script() {
     install_script install
     install_script uninstall
     install_script vsc
+    install_script tools
     ;;
   esac
 }
 #  cd kae
-
 
 installConfig() {
   # 配置文件
@@ -85,15 +88,15 @@ installConfig() {
   ENV_CONFIG_PATH="${ROOT_DIR_PATH}/env_config"
 
   if [[ ! -d ${ROOT_DIR_PATH} ]]; then
-      echo "kea 配置根目录开始构建"
-       mkdir "${ROOT_DIR_PATH}"
-    else
-      echo "kea 配置根目录已生成"
+    echo "kea 配置根目录开始构建"
+    mkdir "${ROOT_DIR_PATH}"
+  else
+    echo "kea 配置根目录已生成"
   fi
 
   if [[ ! -f ${ENV_CONFIG_PATH} ]]; then
     touch "${ENV_CONFIG_PATH}"
-    echo 'env=on' > "${ENV_CONFIG_PATH}"
+    echo 'env=on' >"${ENV_CONFIG_PATH}"
   else
     echo "环境配置文件已生成"
   fi
@@ -122,7 +125,7 @@ if have_sudo_access; then
   # 同步配置和版本信息
   echo "准备开始安装版本信息"
   installConfig
-#  sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/src/config -O --progress
+#  sudo curl https://raw.githubusercontent.com/pepperer/Whale-fall/master/dist/config -O --progress
 else
   echo "未获取到sudo权限"
 fi
