@@ -137,7 +137,7 @@ gitBranch() {
 pushOnce() {
   isGitP
   ret=$?
-  if [[ $ret -ne 200 ]] ]; then
+  if [[ $ret -ne 200 ]]; then
     echo "当前不是git 项目"
     return
   fi
