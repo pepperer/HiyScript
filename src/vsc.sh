@@ -133,6 +133,20 @@ gitBranch() {
 
 }
 
+
+pushOnce() {
+  isGitP
+  ret=$?
+  if [[ $ret -ne 200 ]] ]; then
+    echo "当前不是git 项目"
+    return
+  fi
+  git add .
+  git commit -m "临时提交"
+  git pull
+  git push
+}
+
 # 查看结果
 #echo "测试, 先清除配置文件中的内容"
 #clear
