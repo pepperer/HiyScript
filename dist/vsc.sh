@@ -181,6 +181,9 @@ vsc() {
   'branch')
     gitBranch
     ;;
+  'pushOnce')
+    pushOnce
+    ;;
   *)
     echo "当前为选择功能或该功能暂不支持"
     ;;

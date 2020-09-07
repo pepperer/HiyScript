@@ -4,4 +4,4 @@
 
 
 sh tools/build.sh
-sh tools/publish.sh
+#sh tools/publish.sh
