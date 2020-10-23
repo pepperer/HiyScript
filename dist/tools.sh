@@ -98,18 +98,20 @@ tools() {
   echo '请输入你要上传模块对应的索引 ==> '
   select module in ${targetModules[*]}; do
     echo "选择了${module}"
+    echo -n "输入内容"
+    read -r name
     case $module in
     '时间转日期')
-      time2Date "${1}"
+      time2Date "${name}"
       ;;
     '日期转时间')
-      date2Time "${1}"
+      date2Time "${name}"
       ;;
     'Base64编码')
-      str2Base64 "${1}"
+      str2Base64 "${name}"
       ;;
     'Base64解码')
-      base642Str "${1}"
+      base642Str "${name}"
       ;;
     *)
       echo '当前暂时不支持'

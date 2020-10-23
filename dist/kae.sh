@@ -11,12 +11,12 @@ echo "当前的环境是${env}, 当前的工作路径为${path}"
 
 if [[ $env == "dev" ]]; then
   echo '进入开发环境'
-  source /Users/zhishui/sync/Whale-fall/src/upload.sh
-  source /Users/zhishui/sync/Whale-fall/src/android.sh
-  source /Users/zhishui/sync/Whale-fall/src/position.sh
-  source /Users/zhishui/sync/Whale-fall/src/upgrade.sh
-  source /Users/zhishui/sync/Whale-fall/src/vsc.sh
-  source /Users/zhishui/sync/Whale-fall/src/tools.sh
+  source ${path}/upload.sh
+  source ${path}/android.sh
+  source ${path}/position.sh
+  source ${path}/upgrade.sh
+  source ${path}/vsc.sh
+  source ${path}/tools.sh
 else
   echo '进入正式环境'
   source /usr/local/kae/upload.sh
@@ -51,7 +51,7 @@ case $1 in
   ;;
 'switch')
   cat ${ENV_CONFIG_PATH}
-  echo "env=${2}" > ${ENV_CONFIG_PATH}
+  echo "env=${2}" >${ENV_CONFIG_PATH}
   echo "切换环境为${2}"
   ;;
 *)
